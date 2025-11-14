@@ -1,0 +1,10 @@
+package com.project.moshi.hello;
+
+public record Address(
+        String street,
+        String city,
+        String state,
+        String country
+) {
+}
+
